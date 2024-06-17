@@ -1,0 +1,14 @@
+[project]
+name = "pykw"
+version = "0.0.1"
+authors = [
+     {name = "Lukas Zeit-Altpeter"},
+]
+license = {file = "LICENSE"}
+
+[project.scripts]
+kw = "pykw.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
