@@ -11,7 +11,7 @@ def get_kw_from_date(dt: date) -> int:
 def main():
     parser = argparse.ArgumentParser(
         prog="kw",
-        description="A simple tool to get the number of the current calendar week.",
+        description="A simple tool to get the number of the current calendar week according to ISO8601.",
         usage="kw [-h] [-i N] [-f FORMAT] [-r KW] [date]",
     )
 
